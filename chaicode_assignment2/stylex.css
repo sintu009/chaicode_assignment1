@@ -1,0 +1,171 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Inter", sans-serif;
+ }
+
+
+ .header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 20px 60px;
+     background: transparent;
+     backdrop-filter: blur(16px);
+     -webkit-backdrop-filter: blur(16px);
+     z-index: 1000;
+     transition: 0.3s ease;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .navbar-menu {
+     list-style: none;
+     display: flex;
+     gap: 25px;
+     color: white;
+     cursor: pointer;
+ }
+
+ .header-btn {
+     display: flex;
+     gap: 10px;
+ }
+
+ .header-btn-1 {
+     background: white;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 100px;
+     cursor: pointer;
+ }
+
+ .header-btn-2 {
+     background: white;
+     color: black;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 100px;
+     cursor: pointer;
+ }
+
+
+ .img-feature {
+     background-image:
+         linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+         url("https://www.mintlify.com/hero/bg-dark.svg");
+
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+     height: 1200px;
+     width: 100%;
+     padding-top: 100px;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 24px;
+ }
+
+ .newDiv {
+     display: inline-flex;
+     align-items: center;
+     background: rgba(255, 255, 255, 0.12);
+     padding: 6px 12px;
+     border-radius: 200px;
+     gap: 12px;
+ }
+
+ .new {
+     padding: 5px 10px 5px 10px;
+     background-color: #18E299;
+     border-radius: 200px;
+     color: #fff;
+     font-size: 12px;
+     font-weight: 400px;
+
+ }
+
+ .arrow {
+     background-color: #fff;
+     border-radius: 20px;
+     text-align: center;
+     height: 20px;
+     width: 20px;
+     color: #000;
+
+ }
+
+ .content {
+     color: #fff;
+     font-size: 28px;
+     text-align: center;
+ }
+
+ .input {
+     background-color: rgba(255, 255, 255, 0.15);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 0.2px solid #fff;
+     padding: 6px 6px 6px 16px;
+     border-radius: 40px;
+     max-width: 400px;
+     width: 100%;
+ }
+
+ .input input {
+     background-color: transparent;
+     border: none;
+     color: #fff;
+     outline: none;
+     flex: 1;
+     font-size: 14px;
+ }
+
+ .Input_start {
+     background-color: #fff;
+     border-radius: 20px;
+     padding: 8px 16px;
+     color: #000;
+     font-size: 14px;
+     cursor: pointer;
+     white-space: nowrap;
+ }
+
+ .feature-img {
+     border-radius: 25px;
+     overflow: hidden;
+ }
+
+ .feature-img img {
+     width: 100%;
+     display: block;
+ }
+
+ .company-logo {
+     padding: 30px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .box-logo {
+     height: 30px;
+     width: 100px;
+
+ }
+
+ .video-imag {
+
+     height: 100%;
+     width: 1200px;
+ }
