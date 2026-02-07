@@ -8,7 +8,50 @@
 
 html {
   scroll-behavior: smooth;
+
 }
+
+:root {
+  --color-bg: #14120b;
+  --color-surface: #201e19;
+  --color-text: #edecec;
+  --color-text-muted: #a0a0a0;
+  --color-border: #2a2a2a;
+  --color-primary: #f54e00;
+
+
+  --container-max-width: 1340px;
+  --container-padding: 32px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: -1.5;
+  letter-spacing: -0.3px;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+nav {
+  width: 100%;
+}
+
+.navbar {
+  color: var(--color-section);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 18px;
+  background-color: var(--color-bg);
+}
+
+
 
 :root {
   --color-bg: #14120b;
@@ -56,7 +99,21 @@ nav {
   justify-content: center;
   gap: 2px;
   margin-right: 78px;
+
 }
+
+.icon {
+  text-align: center;
+  font-size: larger;
+}
+
+.name h1 {
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: -1.2;
+}
+
+
 
 .icon {
   text-align: center;
